@@ -40,3 +40,25 @@ nav a {
   margin: 20px 5px;
 }
 /*END HEADER*/
+
+/*MAIN*/
+main {
+  display: flex;
+  justify-content: space-around;
+}
+#redHezen {
+  width: 250.5px;
+  height: 376px;
+}
+#darkHezen {
+  width: 272px;
+  height: 272px;
+}
+
+.contact_info {
+  color: #fff;
+}
+
+h3 {
+  font-size: 30px;
+}
