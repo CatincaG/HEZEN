@@ -132,7 +132,7 @@ nav a:hover {
 /*Responsive for tablets*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .main_part1{
-    height: 100vh;
+    height: auto;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -141,29 +141,29 @@ nav a:hover {
   }
   .main_part1_hezenintro {
     width:100%;
-    height: 50%;
+    height: 42vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 8vh;
-    padding-bottom: 5vh;
+    margin-top: 8vh;
   }
   .main_part1_hezenintro h1 {
     font-family: "futura-logo";
-    font-size: 10rem;
+    font-size: 8rem;
     margin:0;
   }
   .main_part1_hezenintro h3 {
     font-size: 1.8rem;
     font-weight: 100;
-    margin: 3vh 0 0 0;
+    margin: 0;
   }
   .main_part1_hezenintro h2 {
     font-family: "NauSea";
     font-size: 3rem;
     font-weight: 100;
+    margin: 1vh 0 1vh 0;
   }
   .main_part1_hezenintro a {
     color: black;
@@ -171,24 +171,25 @@ nav a:hover {
     font-weight: bold;
     background-color: #DAE4E3;
     border-radius: 10px;
-    padding: 3% 25% 3% 25%;
+    padding: 1.4% 25% 1.4% 25%;
   }
   .main_part1_youtubeAPI{
     width:100%;
-    height: 50%;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
   }
   .main_part1_youtubeAPI iframe {
-    width:800px;
-    height:450px;
+    width:450px;
+    height:253px;
+    margin-top: 3vh;
   }
   .arrow_anchor {
-    width:150px;
+    width:120px;
     position: absolute;
-    top:88vh;
-    left: 40vw;
+    top:85vh;
+    left: 45%;
   }
 }
 
@@ -210,7 +211,7 @@ nav a:hover {
     font-weight: bold;
   }
   .main_part1{
-    height: 100vh;
+    height: auto;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -219,14 +220,13 @@ nav a:hover {
   }
   .main_part1_hezenintro {
     width:100%;
-    height: 50%;
+    height: 42vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 8vh;
-    padding-bottom: 5vh;
+    margin-top: 8vh;
   }
   .main_part1_hezenintro h1 {
     font-family: "futura-logo";
@@ -236,12 +236,13 @@ nav a:hover {
   .main_part1_hezenintro h3 {
     font-size: 1.8rem;
     font-weight: 100;
-    margin: 3vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   .main_part1_hezenintro h2 {
     font-family: "NauSea";
     font-size: 2rem;
     font-weight: 100;
+    margin: 1vh 0 1vh 0;
   }
   .main_part1_hezenintro a {
     color: black;
@@ -253,14 +254,17 @@ nav a:hover {
   }
   .main_part1_youtubeAPI{
     width:100%;
-    height: 50%;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin: 0;
+
   }
   .main_part1_youtubeAPI iframe {
     width:450px;
     height:253px;
+    margin-top: 3vh;
   }
   .arrow_anchor {
     width:90px;
@@ -347,4 +351,11 @@ nav a:hover {
     text-align: center;
     padding-right: 0px;
   }
+}
+
+
+/* PART 3*/
+
+.main_part3 {
+  height: 100vh;
 }
