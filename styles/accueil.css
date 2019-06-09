@@ -192,6 +192,11 @@ nav a:hover {
   }
 }
 
+@media (min-width:768px) and (max-width: 950px){
+  .header_elements .social_media {
+    display: none;
+  }
+}
 /*Responsive for mobile phones */
 @media (max-width: 767px) {
   .header_elements nav, .header_elements .social_media {
