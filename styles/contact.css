@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family:'Roboto', 'Arial' sans-serif;
+  font-family:'futura-text';
   color: #444;
   background: #510E10;
 }
@@ -31,8 +31,13 @@ nav {
 }
 
 nav a {
+  font-size: 20px;
   margin: 20px 20px;
   text-decoration: none;
+  color: #000;
+}
+nav a:hover {
+  border-bottom: solid 3px #510E10;
 }
 
 /*social media*/
@@ -49,14 +54,24 @@ main {
 #redHezen {
   width: 250.5px;
   height: 376px;
+  padding-top: 65px;
+  padding-left: 25px;
 }
 #darkHezen {
   width: 272px;
   height: 272px;
+  padding-top: 100px;
+  padding-right: 25px;
 }
 
 .contact_info {
   color: #fff;
+  text-align: center;
+}
+
+.contact_info h1 {
+  font-family: "futura-logo";
+  font-size: 55px;
 }
 
 h3 {
