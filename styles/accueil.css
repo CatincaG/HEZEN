@@ -59,6 +59,9 @@ nav a {
 nav a:hover {
   border-bottom: solid 3px #510E10;
 }
+.hamburger{
+  display: none;
+}
 
 /*social media*/
 .social_media img{
@@ -192,8 +195,14 @@ nav a:hover {
 
 /*Responsive for mobile phones */
 @media (max-width: 767px) {
-  h1  {
+  .header_elements nav, .header_elements .social_media {
     display: none;
   }
-
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
 }
