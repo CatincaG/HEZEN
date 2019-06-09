@@ -77,7 +77,7 @@ nav a:hover {
 }
 .main_part1_hezenintro {
   width:45%;
-  height: auto;
+  height: 100%;
   color:white;
   text-align: center;
   display: flex;
@@ -127,6 +127,7 @@ nav a:hover {
   left: 40vw;
 }
 
+/*Responsive for tablets*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .main_part1{
     height: 100vh;
@@ -134,17 +135,17 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .main_part1_hezenintro {
     width:100%;
-    height: auto;
-    color:white;
+    height: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10vh;
+    padding-top: 8vh;
     padding-bottom: 5vh;
   }
   .main_part1_hezenintro h1 {
@@ -163,7 +164,6 @@ nav a:hover {
     font-weight: 100;
   }
   .main_part1_hezenintro a {
-    text-decoration: none;
     color: black;
     font-size: 1.4rem;
     font-weight: bold;
@@ -173,7 +173,7 @@ nav a:hover {
   }
   .main_part1_youtubeAPI{
     width:100%;
-    height: auto;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,4 +188,12 @@ nav a:hover {
     top:88vh;
     left: 40vw;
   }
+}
+
+/*Responsive for mobile phones */
+@media (min-width: 324px) and (max-width: 768px) {
+  .header_elements > nav, .header_elements > .social_media {
+    display: none;
+  }
+
 }
