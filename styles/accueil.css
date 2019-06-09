@@ -192,7 +192,7 @@ nav a:hover {
   }
 }
 
-@media (min-width:768px) and (max-width: 950px){
+@media (min-width:768px) and (max-width: 955px){
   .header_elements .social_media {
     display: none;
   }
@@ -268,4 +268,59 @@ nav a:hover {
     top:88vh;
     left: 45%;
   }
+}
+
+/* PART 2*/
+
+.main_part2 {
+  height: 100vh;
+  background-image: url('../images/homepage/hezen_photo3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 0px;
+  border-bottom: 20px solid #510E10;
+  display: flex;
+  justify-content: center;
+}
+.main_part2 .hezen_bio {
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  padding-right: 50px;
+}
+.main_part2 .hezen_bio p {
+  font-size: 2rem;
+  display: flex;
+  align-items: flex-start;
+  width:45%;
+  justify-content: center;
+}
+.main_part2 h2 {
+  font-family: "futura-logo";
+  color: black;
+  font-size: 6rem;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0;
+  width:45%;
+  justify-content: center;
+}
+/*responsive PART 2 */
+@media (min-width: 1025px) and (max-width: 1280px){
+
+}
+/*Responsive for tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/*responsive for phones */
+@media (max-width: 767px){
+
+
 }
