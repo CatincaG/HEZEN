@@ -176,14 +176,14 @@ nav a:hover {
     height: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   .main_part1_youtubeAPI iframe {
     width:800px;
     height:450px;
   }
   .arrow_anchor {
-    width:160px;
+    width:150px;
     position: absolute;
     top:88vh;
     left: 40vw;
