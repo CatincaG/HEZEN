@@ -295,7 +295,7 @@ nav a:hover {
   font-size: 2rem;
   display: flex;
   align-items: flex-start;
-  width:45%;
+  width:55%;
   justify-content: center;
 }
 .main_part2 h2 {
@@ -305,22 +305,46 @@ nav a:hover {
   display: flex;
   align-items: flex-end;
   margin-bottom: 0;
-  width:45%;
+  width:55%;
   justify-content: center;
 }
 /*responsive PART 2 */
 @media (min-width: 1025px) and (max-width: 1280px){
+  .main_part2 h2 {
+    font-size: 5rem;
 
+  }
 }
 /*Responsive for tablets */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-
+  .main_part2 h2 {
+    font-size: 5rem;
+    width:65%;
+  }
+  .main_part2 .hezen_bio p {
+    width:65%;
+    font-size: 1.8rem;
+  }
 }
 
 /*responsive for phones */
 @media (max-width: 767px){
-
-
+  .main_part2 h2 {
+    font-size: 5rem;
+    width:100%;
+  }
+  .main_part2 .hezen_bio p {
+    width:90%;
+    font-size: 1.5rem;
+  }
+  .main_part2 .hezen_bio {
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 0px;
+  }
 }
