@@ -34,7 +34,6 @@ header {
 #headerLogo {
   width: 165px;
   height: 44px;
-  margin-top: 9px;
   margin-left: 20px;
 }
 
@@ -52,7 +51,7 @@ nav {
 
 nav a {
   font-size: 20px;
-  margin: 20px 20px;
+  margin: 0 20px;
   text-decoration: none;
   color: #000;
 }
@@ -65,7 +64,7 @@ nav a:hover {
 
 /*social media*/
 .social_media img{
-  margin: 20px 5px;
+  margin: 0 5px;
 }
 
 /* MAIN*/
