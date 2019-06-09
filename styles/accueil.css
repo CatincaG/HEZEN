@@ -191,8 +191,8 @@ nav a:hover {
 }
 
 /*Responsive for mobile phones */
-@media (min-width: 324px) and (max-width: 768px) {
-  .header_elements > nav, .header_elements > .social_media {
+@media (max-width: 767px) {
+  h1  {
     display: none;
   }
 
