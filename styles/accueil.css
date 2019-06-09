@@ -129,14 +129,14 @@ nav a:hover {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .main_part1{
-    background-color: #510E10;
     height: 100vh;
     width:100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
   }
   .main_part1_hezenintro {
-    width:45%;
+    width:100%;
     height: auto;
     color:white;
     text-align: center;
@@ -144,6 +144,8 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
   }
   .main_part1_hezenintro h1 {
     font-family: "futura-logo";
@@ -153,7 +155,7 @@ nav a:hover {
   .main_part1_hezenintro h3 {
     font-size: 1.8rem;
     font-weight: 100;
-    margin: 5vh 0 0 0;
+    margin: 3vh 0 0 0;
   }
   .main_part1_hezenintro h2 {
     font-family: "NauSea";
@@ -170,20 +172,20 @@ nav a:hover {
     padding: 3% 25% 3% 25%;
   }
   .main_part1_youtubeAPI{
-    width:55%;
+    width:100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .main_part1_youtubeAPI iframe {
-    width:790px;
-    height:444px;
+    width:800px;
+    height:450px;
   }
   .arrow_anchor {
     width:160px;
     position: absolute;
-    top:80vh;
+    top:88vh;
     left: 40vw;
   }
 }
