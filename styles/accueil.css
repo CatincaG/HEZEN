@@ -204,4 +204,63 @@ nav a:hover {
     color: black;
     font-weight: bold;
   }
+  .main_part1{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_part1_hezenintro {
+    width:100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+  }
+  .main_part1_hezenintro h1 {
+    font-family: "futura-logo";
+    font-size: 5rem;
+    margin:0;
+  }
+  .main_part1_hezenintro h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 3vh 0 0 0;
+  }
+  .main_part1_hezenintro h2 {
+    font-family: "NauSea";
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  .main_part1_hezenintro a {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #DAE4E3;
+    border-radius: 10px;
+    padding: 2% 25% 2% 25%;
+  }
+  .main_part1_youtubeAPI{
+    width:100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .main_part1_youtubeAPI iframe {
+    width:450px;
+    height:253px;
+  }
+  .arrow_anchor {
+    width:90px;
+    position: absolute;
+    top:88vh;
+    left: 45%;
+  }
 }
