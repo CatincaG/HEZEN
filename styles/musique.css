@@ -9,4 +9,5 @@ p{
 #spotifyPlayer{
     margin-top: 5%;
     margin-bottom: 5%;
+    width: 0 auto;
 }
