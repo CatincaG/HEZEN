@@ -9,5 +9,19 @@ p{
 #spotifyPlayer{
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.bigDivLogo{
+    display: flex;
+    justify-content: center;
     width: 0 auto;
+    display: flex;
+}
+
+.bigDivLogo_first, bigDivLogo_second{
+    width: 550px;
+}
+
+.bigDivLogo_first img, bigDivLogo_second img{
+    height: 40px;
 }
