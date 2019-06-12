@@ -1,0 +1,45 @@
+/*HEADER*/
+
+header {
+    background: #DAE4E3;
+    height:8vh;
+    width: 100%;
+    position: fixed;
+  }
+  
+  #headerLogo {
+    width: 165px;
+    height: 44px;
+    margin-left: 20px;
+  }
+  
+  .header_elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  nav a:hover {
+    border-bottom: solid 3px #510E10;
+  }
+  .hamburger{
+    display: none;
+  }
+  
+  /*social media*/
+  .social_media img{
+    margin: 0 5px;
+  }
+  
