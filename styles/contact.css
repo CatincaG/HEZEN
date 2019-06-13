@@ -87,6 +87,7 @@ footer {
   flex-direction: column;
   align-items: center;
   height: 120px;
+  border-top: solid 1px #DAE4E3;
 }
 
 .social_media_footer {
