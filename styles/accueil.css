@@ -316,4 +316,99 @@ body{
 
 .main_part3 {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_part3 h2 {
+  height: 10vh;
+  margin-top: 10vh;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+.main_part3 .main_part3_ep {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.hezen_ep1 {
+  height: 50vh;
+  width: 50vh;
+  margin: 0 2vw 0 2vw;
+  background-image: url('../images/homepage/hezen_ep1.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hezen_ep2 {
+  height: 50vh;
+  width: 50vh;
+  margin: 0 2vw 0 2vw;
+  background-image: url('../images/homepage/hezen_ep2.jpg');
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hezen_ep3 {
+  height: 50vh;
+  width: 50vh;
+  margin: 0 2vw 0 2vw;
+  background-image: url('../images/homepage/hezen_ep3.png');
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_part3_ep h4 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin:0;
+}
+.main_part3_ep h5 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin:0;
+}
+.main_part3 .main_part3_buttons {
+  height: 20vh;
+  width:60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_part3_buttons .listen_link, .main_part3_buttons .buy_link {
+  width: 20vw;
+  height: 6vh;
+  border-radius: 5px;
+  color: black;
+  border: 1.5px solid #510E10;
+  text-decoration: none;
+  font-size: 1.5rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/* PART 4*/
+
+.main_part4 {
+  height: 100vh;
 }
