@@ -51,6 +51,7 @@ main {
   display: flex;
   justify-content: space-around;
 }
+
 #redHezen {
   width: 250.5px;
   height: 376px;
@@ -76,4 +77,11 @@ main {
 
 h3 {
   font-size: 30px;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  display: flex;
+  align-items: center;
 }
