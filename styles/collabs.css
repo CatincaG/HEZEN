@@ -1,14 +1,21 @@
 /* MAIN */
-.title{
-  height: 20px;
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'futura-text';
+  color: white;
+  background: #510E10;
 }
+
+
+
 
  .title h2{
   font-family: "futura-logo";
   font-size: 4rem;
   font-weight: normal;
   margin-left: 800px;
-  padding-top: 40px;
+  margin-top:122px;
   color: white;
 }
 
@@ -25,24 +32,36 @@ margin-left: -171px;
 
 
 p{
-  font-family: "futura-logo";
   font-weight: normal;
   color: white;
   font-size: 28px;
-  margin-left: -530px;
+  margin-left: -55px;
   text-align: center;
+  margin-top: -197px;
+}
+
+
+/* YouTube API */
+
+ iframe {
+  width:790px;
+  height:444px;
 }
 
 .first_youtubeAPi{
-  width:790px;
+  width:100%;
   height:auto;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-/*.first_youtubeAPi iframe {
-  width:790px;
-  height:444px;
+
+
+/* Responsive */
+@media (min-width: 768px) and (max-width: 1024px){
+   .title h2{
+    height:auto;
+    width: auto;
+  }
 }
-*/
