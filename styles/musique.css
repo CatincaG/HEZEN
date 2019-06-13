@@ -1,23 +1,18 @@
+
 body{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
     font-family:'futura-text';
-    color: black;
-    background: #DAE4E3;
-  }
-
-
-  
-main{
-    background-color: #510E10;
     color: white;
-}
-
+    background: #510E10;
+  }
 
 
 #spotifyPlayer{
     margin-top: 5%;
     margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 .bigDivLogo{
@@ -26,8 +21,14 @@ main{
 }
 
 .bigDivLogo_first, .bigDivLogo_second{
-    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3%;
+    
 }
+
+
 
 .bigDivLogo_first img, .bigDivLogo_second img{
     height: 40px;

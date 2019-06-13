@@ -2,14 +2,14 @@
 
 header {
     background: #DAE4E3;
-    height:8vh;
+    height:13vh;
     width: 100%;
     position: fixed;
   }
   
   #headerLogo {
-    width: 165px;
-    height: 44px;
+    width: 180px;
+    height: 60px;
     margin-left: 20px;
   }
   
@@ -42,4 +42,15 @@ header {
   .social_media img{
     margin: 0 5px;
   }
+
+  /* FIN HEADER */
+
+  /* FOOTER */
+
+
+
+
+
+
+  /* FIN FOOTER */ 
   
