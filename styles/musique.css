@@ -10,11 +10,10 @@ body{
   
 main{
     background-color: #510E10;
-}
-
-p{
     color: white;
 }
+
+
 
 #spotifyPlayer{
     margin-top: 5%;
