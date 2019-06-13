@@ -50,20 +50,20 @@ nav a:hover {
 main {
   display: flex;
   justify-content: space-around;
+  margin-top: 60px;
 }
 
 #redHezen {
-  width: 250.5px;
-  height: 376px;
-  padding-top: 65px;
-  padding-left: 25px;
+  width: 230.5px;
+  height: 356px;
+  margin: 20px 0;
 }
-#darkHezen {
+/*#darkHezen {
   width: 272px;
   height: 272px;
   padding-top: 100px;
   padding-right: 25px;
-}
+}*/
 
 .contact_info {
   color: #fff;
@@ -73,6 +73,7 @@ main {
 .contact_info h1 {
   font-family: "futura-logo";
   font-size: 55px;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -104,4 +105,11 @@ footer {
   font-size: 10px;
   color: #fff;
   margin-top: 10px;
+}
+
+.sup_info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 0 30px;
 }
