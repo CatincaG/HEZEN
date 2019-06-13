@@ -1,0 +1,67 @@
+/* MAIN */
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'futura-text';
+  color: white;
+  background: #510E10;
+}
+
+
+
+
+ .title h2{
+  font-family: "futura-logo";
+  font-size: 4rem;
+  font-weight: normal;
+  margin-left: 800px;
+  margin-top:122px;
+  color: white;
+}
+
+h3{
+font-family: "futura-logo";
+color: white;
+font-size: 35px;
+font-weight: normal;
+padding-top: 185px;
+margin-left: -171px;
+}
+
+
+
+
+p{
+  font-weight: normal;
+  color: white;
+  font-size: 28px;
+  margin-left: -55px;
+  text-align: center;
+  margin-top: -197px;
+}
+
+
+/* YouTube API */
+
+ iframe {
+  width:790px;
+  height:444px;
+}
+
+.first_youtubeAPi{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+
+/* Responsive */
+@media (min-width: 768px) and (max-width: 1024px){
+   .title h2{
+    height:auto;
+    width: auto;
+  }
+}

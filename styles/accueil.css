@@ -7,76 +7,25 @@ body{
 }
 
 
-/*FLEXBOX CHEATS*/
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.row{
-  display: flex;
-  flex-direction: row;
-}
-.column{
-  display: flex;
-  flex-direction: column;
-}
-
-/*HEADER*/
-
-header {
-  background: #DAE4E3;
-  height:8vh;
-  width: 100%;
-  position: fixed;
-}
-
-#headerLogo {
-  width: 165px;
-  height: 44px;
-  margin-top: 9px;
-  margin-left: 20px;
-}
-
-.header_elements {
-  display: flex;
-  justify-content: space-around;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav a {
-  font-size: 20px;
-  margin: 20px 20px;
-  text-decoration: none;
-  color: #000;
-}
-nav a:hover {
-  border-bottom: solid 3px #510E10;
-}
-
-/*social media*/
-.social_media img{
-  margin: 20px 5px;
-}
-
 /* MAIN*/
 
 /*FIRST PART*/
 .main_part1{
   background-color: #510E10;
   height: 100vh;
-  width:100%
+  width:100%;
+  display: flex;
+  flex-direction: row;
 }
 .main_part1_hezenintro {
-  width:40%;
-  height: auto;
+  width:45%;
+  height: 100%;
   color:white;
   text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main_part1_hezenintro h1 {
   font-family: "futura-logo";
@@ -103,6 +52,250 @@ nav a:hover {
   padding: 3% 25% 3% 25%;
 }
 .main_part1_youtubeAPI{
-  width:60%;
+  width:55%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_part1_youtubeAPI iframe {
+  width:790px;
+  height:444px;
+}
+.arrow_anchor {
+  width:160px;
+  position: absolute;
+  top:80vh;
+  left: 40vw;
+}
+
+/*Responsive for tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main_part1{
+    height: auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_part1_hezenintro {
+    width:100%;
+    height: 42vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .main_part1_hezenintro h1 {
+    font-family: "futura-logo";
+    font-size: 8rem;
+    margin:0;
+  }
+  .main_part1_hezenintro h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 0;
+  }
+  .main_part1_hezenintro h2 {
+    font-family: "NauSea";
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 1vh 0 1vh 0;
+  }
+  .main_part1_hezenintro a {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: #DAE4E3;
+    border-radius: 10px;
+    padding: 1.4% 25% 1.4% 25%;
+  }
+  .main_part1_youtubeAPI{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .main_part1_youtubeAPI iframe {
+    width:500px;
+    height:281px;
+    margin-top: 3vh;
+  }
+  .arrow_anchor {
+    width:120px;
+    position: absolute;
+    top:85vh;
+    left: 45%;
+  }
+}
+
+@media (min-width:768px) and (max-width: 955px){
+  .header_elements .social_media {
+    display: none;
+  }
+}
+/*Responsive for mobile phones */
+@media (max-width: 767px) {
+  .header_elements nav, .header_elements .social_media {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .main_part1{
+    height: auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_part1_hezenintro {
+    width:100%;
+    height: 42vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .main_part1_hezenintro h1 {
+    font-family: "futura-logo";
+    font-size: 5rem;
+    margin:0;
+  }
+  .main_part1_hezenintro h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 2vh 0 0 0;
+  }
+  .main_part1_hezenintro h2 {
+    font-family: "NauSea";
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 1vh 0 1vh 0;
+  }
+  .main_part1_hezenintro a {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #DAE4E3;
+    border-radius: 10px;
+    padding: 2% 25% 2% 25%;
+  }
+  .main_part1_youtubeAPI{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+
+  }
+  .main_part1_youtubeAPI iframe {
+    width:450px;
+    height:253px;
+    margin-top: 3vh;
+  }
+  .arrow_anchor {
+    width:90px;
+    position: absolute;
+    top:88vh;
+    left: 45%;
+  }
+}
+
+/* PART 2*/
+
+.main_part2 {
+  height: 100vh;
+  background-image: url('../images/homepage/hezen_photo3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 0px;
+  border-bottom: 20px solid #510E10;
+  display: flex;
+  justify-content: center;
+}
+.main_part2 .hezen_bio {
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  padding-right: 50px;
+}
+.main_part2 .hezen_bio p {
+  font-size: 2rem;
+  display: flex;
+  align-items: flex-start;
+  width:55%;
+  justify-content: center;
+}
+.main_part2 h2 {
+  font-family: "futura-logo";
+  color: black;
+  font-size: 6rem;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0;
+  width:55%;
+  justify-content: center;
+}
+/*responsive PART 2 */
+@media (min-width: 1025px) and (max-width: 1280px){
+  .main_part2 h2 {
+    font-size: 5rem;
+
+  }
+}
+/*Responsive for tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main_part2 h2 {
+    font-size: 5rem;
+    width:65%;
+  }
+  .main_part2 .hezen_bio p {
+    width:65%;
+    font-size: 1.8rem;
+  }
+}
+
+/*responsive for phones */
+@media (max-width: 767px){
+  .main_part2 h2 {
+    font-size: 5rem;
+    width:100%;
+  }
+  .main_part2 .hezen_bio p {
+    width:90%;
+    font-size: 1.5rem;
+  }
+  .main_part2 .hezen_bio {
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+
+
+/* PART 3*/
+
+.main_part3 {
+  height: 100vh;
 }

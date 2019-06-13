@@ -1,0 +1,56 @@
+/*HEADER*/
+
+header {
+    background: #DAE4E3;
+    height:10vh;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+  }
+
+  #headerLogo {
+    width: 180px;
+    height: 60px;
+    margin-left: 20px;
+  }
+
+  .header_elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  nav a:hover {
+    border-bottom: solid 3px #510E10;
+  }
+  .hamburger{
+    display: none;
+  }
+
+  /*social media*/
+  .social_media img{
+    margin: 0 5px;
+  }
+
+  /* FIN HEADER */
+
+  /* FOOTER */
+
+
+
+
+
+
+  /* FIN FOOTER */

@@ -1,0 +1,35 @@
+
+body{
+  margin: 0;
+  padding: 0;
+    font-family:'futura-text';
+    color: white;
+    background: #510E10;
+  }
+
+
+#spotifyPlayer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.bigDivLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.bigDivLogo_first, .bigDivLogo_second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3%;
+    
+}
+
+
+
+.bigDivLogo_first img, .bigDivLogo_second img{
+    height: 40px;
+}
