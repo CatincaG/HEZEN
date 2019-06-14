@@ -19,7 +19,7 @@ body{
   color: white;
 }
 
-h3{
+.first_collab h3{
 font-family: "futura-logo";
 color: white;
 font-size: 35px;
@@ -31,7 +31,7 @@ margin-left: -171px;
 
 
 
-p{
+.first_collab p{
   font-weight: normal;
   color: white;
   font-size: 28px;
@@ -41,10 +41,12 @@ p{
 }
 
 
+
+
 /* YouTube API */
 
  iframe {
-  width:790px;
+  width:800px;
   height:444px;
 }
 
@@ -54,9 +56,15 @@ p{
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
 }
 
+.second_youtubeAPI{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 /* Medias */
 
 
