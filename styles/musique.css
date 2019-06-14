@@ -23,7 +23,7 @@ body{
 
 .bigDivLogo{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .bigDivLogo_first, .bigDivLogo_second{
