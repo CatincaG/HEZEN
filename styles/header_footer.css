@@ -47,10 +47,38 @@ header {
   /* FIN HEADER */
 
   /* FOOTER */
+  footer {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    border-top: solid 1px #DAE4E3;
+  }
 
+  .social_media_footer {
+    padding-top: 20px;
+  }
 
+  .social_media_footer a{
+    margin: 10px;
+  }
+  .social_media_footer img {
+    height: 24px;
+    width: 24px;
+  }
 
+  #cp_hezen {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 10px;
+  }
 
-
+  .sup_info a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 30px;
+  }
 
   /* FIN FOOTER */

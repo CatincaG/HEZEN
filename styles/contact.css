@@ -81,7 +81,11 @@ h3 {
 }
 
 /* FOOTER */
-footer {
+/*footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background: #000;
   display: flex;
   flex-direction: column;
@@ -114,3 +118,4 @@ footer {
   font-size: 13px;
   margin: 0 30px;
 }
+*/
