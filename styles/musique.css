@@ -7,10 +7,16 @@ body{
     background: #510E10;
   }
 
+#title_page{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  font-size: 23px;
+}
 
 #spotifyPlayer{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
 }
