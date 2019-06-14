@@ -54,8 +54,19 @@ p{
   display: flex;
   justify-content: center;
   align-items: flex-end;
+
 }
 
+/* Medias */
+
+
+.medias + a img{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  width: 20px;
+}
 
 
 /* Responsive */
