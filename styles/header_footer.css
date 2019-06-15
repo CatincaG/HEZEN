@@ -69,6 +69,7 @@ header {
 /* Fin Responsive */
 
 /*Hamburger menu*/
+@media (min-width: 300px) and (max-width: 767px) {
 .menu_sidebar {
   position: fixed;
   right:0;
@@ -102,7 +103,7 @@ header {
 .sidebar_close {
   display: none;
 }
-
+}
   /* FIN HEADER */
 
 

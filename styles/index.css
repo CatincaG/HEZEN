@@ -88,7 +88,7 @@ body{
 }
 
 /*Responsive for tablets*/
-@media screen (min-width: 768px) and (max-width: 950px) {
+@media screen and (min-width: 768px) and (max-width: 950px) {
   .main_part1{
     height: auto;
     width:100%;
@@ -151,7 +151,7 @@ body{
   }
 }
 
-@media screen (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 300px) and (max-width: 767px) {
   .main_part1{
     height: auto;
     width:100%;
@@ -263,7 +263,7 @@ body{
 }
 /*Responsive for tablets */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .main_part2 h2 {
     font-size: 5rem;
     width:65%;
@@ -275,7 +275,7 @@ body{
 }
 
 /*responsive for phones */
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
   .main_part2 h2 {
     font-size: 5rem;
     width:100%;
@@ -386,7 +386,7 @@ body{
   align-items: center;
 }
 /*Responsive for talets*/
-@media (min-width: 768px) and (max-width: 1325px) {
+@media screen and (min-width: 768px) and (max-width: 1325px) {
 
 .main_part3 .main_part3_ep {
   display: flex;
@@ -405,7 +405,7 @@ body{
 }
 }
 /* responsive for phones */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main_part3 .main_part3_ep {
     display: flex;
     flex-direction: column;
