@@ -70,9 +70,36 @@ header {
 
 /*Hamburger menu*/
 .menu_sidebar {
-  display:none;
+  display: none;
+  position: fixed;
+  right:0;
+  top: 10vh;
+  width:50vw;
+  height:50vh;
+  background-color:  #DAE4E3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.menu_sidebar nav {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  text-align: center;
+  width:100%;
+}
+.menu_sidebar .social_media {
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width:100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu_sidebar_open {
+  display: none;
+}
 
   /* FIN HEADER */
 
