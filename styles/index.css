@@ -151,7 +151,7 @@ body{
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .main_part1{
     height: auto;
     width:100%;
