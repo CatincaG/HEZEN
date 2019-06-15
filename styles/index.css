@@ -472,6 +472,8 @@ body{
 /* SLIDER INSTAGRAM*/
 
 .gallery{
+  width:80vw;
+  height:50vh;
   display: flex;
   flex-direction: row;
 }
