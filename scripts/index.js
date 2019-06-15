@@ -6,11 +6,11 @@ $(document).ready(function() {
     var userFeed = new Instafeed({
         get: 'user',
         //https://codeofaninja.com/tools/find-instagram-user-id
-        userId: '1190810834',
+        userId: 'userid',
         limit: 12,
         resolution: 'standard_resolution',
         //instagram.pixelunion
-        accessToken: '1190810834.1677ed0.6946583e5ffd469f9dfab8ee12f1c8b0',
+        accessToken: 'accesstoken',
         sortBy: 'most-recent',
         template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
