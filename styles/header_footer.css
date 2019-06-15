@@ -1,6 +1,6 @@
 /*HEADER */
 
-/* Desktop */ 
+/* Desktop */
 header {
     background: #DAE4E3;
     height:10vh;
@@ -47,7 +47,7 @@ header {
 
 /* Fin Desktop */
 
-/* Responsive */ 
+/* Responsive */
 
 @media (max-width: 767px) {
   .header_elements nav, .header_elements .social_media {
@@ -61,17 +61,21 @@ header {
     font-weight: bold;
   }
 }
+@media (min-width:768px) and (max-width: 955px){
+  .header_elements .social_media {
+    display: none;
+  }
 /* Fin Responsive */
 
   /* FIN HEADER */
 
-/* SPACE */ 
-/* SPACE */ 
-/* SPACE */ 
+/* SPACE */
+/* SPACE */
+/* SPACE */
 
   /* FOOTER */
 
-  /* Desktop */ 
+  /* Desktop */
   footer {
     background: #000;
     display: flex;
@@ -107,7 +111,7 @@ header {
 
   /* Fin Desktop */
 
-  /* Responsive */ 
+  /* Responsive */
 
 
 
