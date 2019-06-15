@@ -247,7 +247,7 @@ body{
   padding-right: 50px;
 }
 .main_part2 .hezen_bio p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: flex-start;
   width:55%;
@@ -291,7 +291,7 @@ body{
   }
   .main_part2 .hezen_bio p {
     width:90%;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .main_part2 .hezen_bio {
     height: 100%;

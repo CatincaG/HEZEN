@@ -104,6 +104,9 @@ header {
   display: none;
 }
 }
+.sidebar_close {
+  display: none;
+}
   /* FIN HEADER */
 
 
