@@ -286,7 +286,7 @@ body{
 /*responsive for phones */
 @media screen and (max-width: 767px){
   .main_part2 h2 {
-    font-size: 5rem;
+    font-size: 3rem;
     width:100%;
   }
   .main_part2 .hezen_bio p {

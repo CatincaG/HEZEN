@@ -22,15 +22,15 @@ body{
 }
 
 .prada{
-  height: 65px;
-  width: 397px;
+  height: 67px;
+  width: 381px;
   position: relative;
   background: white;
 }
 
 .prada_logo {
-  height: 65px;
-  width: 397px;
+  height: 66px;
+  width: 384px;
   position: absolute;
 }
 
@@ -40,12 +40,15 @@ body{
  h3{
   font-family: "futura-logo";
   color: white;
-  font-size: 42px;
+  font-size: 46px;
   font-weight: normal;
-  padding-top: 6px;
-  margin-left: 538px;
+  margin-top:-40px;
 }
 
+#year2017{
+  margin-left: 556px;
+  padding-top: 68px;
+}
 
 
 .first_collab p{
@@ -54,7 +57,7 @@ body{
   font-size: 28px;
   margin-left: -55px;
   text-align: center;
-  margin-top: -3px;
+  margin-top: 25px;
 }
 
 
