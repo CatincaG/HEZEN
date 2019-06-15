@@ -64,9 +64,12 @@ body{
 }
 .arrow_anchor {
   width:160px;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
-  top:80vh;
-  left: 40vw;
+  top:83vh;
+  left: 0;
+  right: 0;
   animation: move 1.5s infinite linear;
 }
 @keyframes move {
@@ -145,9 +148,12 @@ body{
   }
   .arrow_anchor {
     width:120px;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     top:85vh;
-    left: 45%;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -210,9 +216,12 @@ body{
   }
   .arrow_anchor {
     width:90px;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     top:88vh;
-    left: 50vw;
+    left: 0;
+    right: 0;
   }
 }
 
