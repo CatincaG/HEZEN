@@ -151,7 +151,7 @@ body{
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
   .main_part1{
     height: auto;
     width:100%;
@@ -380,7 +380,7 @@ body{
   color: black;
   border: 1.5px solid #510E10;
   text-decoration: none;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -413,8 +413,8 @@ body{
   }
   .main_part3 {
     height: auto;
-  
-  
+
+
   }
   .hezen_ep1, .hezen_ep2, .hezen_ep3 {
     margin: 2vh 0 2vh 0;

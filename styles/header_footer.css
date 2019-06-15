@@ -49,7 +49,7 @@ header {
 
 /* Responsive */
 
-@media (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
   .header_elements nav, .header_elements .social_media {
     display: none;
   }
