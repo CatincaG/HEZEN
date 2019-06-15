@@ -32,9 +32,10 @@ header {
     margin: 0 20px;
     text-decoration: none;
     color: #000;
+    border: 3px solid rgba(0, 0, 0, 0);
   }
   nav a:hover {
-    border-bottom: solid 3px #510E10;
+    border-bottom: 3px solid #510E10;
   }
   .hamburger{
     display: none;
@@ -104,6 +105,7 @@ header {
   display: none;
 }
 }
+/*desktop*/
 .sidebar_close {
   display: none;
 }
