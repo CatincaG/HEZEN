@@ -7,7 +7,7 @@ $(document).ready(function() {
         get: 'user',
         //https://codeofaninja.com/tools/find-instagram-user-id
         userId: '146279434',
-        limit: 12,
+        limit: 6,
         resolution: 'standard_resolution',
         //instagram.pixelunion
         accessToken: '146279434.1677ed0.a541682a45ce4cf4834543db0fa2f782',
