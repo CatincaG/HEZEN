@@ -256,7 +256,7 @@ body{
 .main_part2 h2 {
   font-family: "futura-logo";
   color: black;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   display: flex;
   align-items: flex-end;
   margin-bottom: 0;
@@ -266,7 +266,7 @@ body{
 /*responsive PART 2 */
 @media (min-width: 1025px) and (max-width: 1280px){
   .main_part2 h2 {
-    font-size: 5rem;
+    font-size: 3rem;
 
   }
 }
@@ -274,24 +274,24 @@ body{
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main_part2 h2 {
-    font-size: 5rem;
+    font-size: 3rem;
     width:65%;
   }
   .main_part2 .hezen_bio p {
     width:65%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 
 /*responsive for phones */
 @media screen and (max-width: 767px){
   .main_part2 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     width:100%;
   }
   .main_part2 .hezen_bio p {
     width:90%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .main_part2 .hezen_bio {
     height: 100%;
