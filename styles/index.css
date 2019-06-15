@@ -456,7 +456,7 @@ body{
   font-size: 1.5rem;
 }
 .instagram_link {
-  height:6vh;
+  height:5vh;
   width: 14vw;
   display: flex;
   flex-direction: row;
@@ -472,9 +472,16 @@ body{
 /* SLIDER INSTAGRAM*/
 
 .gallery{
-  width:80vw;
-  height:60vh;
+  width:45vw;
+  height:auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+.gallery * {
+  width: 15vw;
+  margin:0;
 }
