@@ -11,6 +11,8 @@ $(document).ready(function() {
         resolution: 'standard_resolution',
         //instagram.pixelunion
         accessToken: '146279434.1677ed0.a541682a45ce4cf4834543db0fa2f782',
+        //file instafeed.min
+        //most-recent, most-liked, most-commented
         sortBy: 'most-recent',
         template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
