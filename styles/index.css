@@ -470,3 +470,8 @@ body{
 }
 
 /* SLIDER INSTAGRAM*/
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+}
