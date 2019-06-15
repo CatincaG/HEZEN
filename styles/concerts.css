@@ -17,7 +17,7 @@ body{
 .concerts_title h2 {
   font-size: 40px;
 }
-.song widget{
-   width: 500px;
+.song{
+   width: 50%;
    height: auto;
 }
