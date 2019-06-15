@@ -65,13 +65,17 @@ header {
   .header_elements .social_media {
     display: none;
   }
+}
 /* Fin Responsive */
+
+/*Hamburger menu*/
+.menu_sidebar {
+  display:none;
+}
+
 
   /* FIN HEADER */
 
-/* SPACE */
-/* SPACE */
-/* SPACE */
 
   /* FOOTER */
 
