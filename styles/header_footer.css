@@ -1,5 +1,6 @@
-/*HEADER*/
+/*HEADER */
 
+/* Desktop */ 
 header {
     background: #DAE4E3;
     height:10vh;
@@ -44,9 +45,33 @@ header {
     margin: 0 5px;
   }
 
+/* Fin Desktop */
+
+/* Responsive */ 
+
+@media (max-width: 767px) {
+  .header_elements nav, .header_elements .social_media {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+/* Fin Responsive */
+
   /* FIN HEADER */
 
+/* SPACE */ 
+/* SPACE */ 
+/* SPACE */ 
+
   /* FOOTER */
+
+  /* Desktop */ 
   footer {
     background: #000;
     display: flex;
@@ -79,5 +104,13 @@ header {
     font-size: 13px;
     margin: 0 30px;
   }
+
+  /* Fin Desktop */
+
+  /* Responsive */ 
+
+
+
+  /* Fin Responsive */
 
   /* FIN FOOTER */

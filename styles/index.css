@@ -151,23 +151,7 @@ body{
   }
 }
 
-@media (min-width:768px) and (max-width: 955px){
-  .header_elements .social_media {
-    display: none;
-  }
-}
-/*Responsive for mobile phones */
-@media (max-width: 767px) {
-  .header_elements nav, .header_elements .social_media {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-  }
+
   .main_part1{
     height: auto;
     width:100%;
