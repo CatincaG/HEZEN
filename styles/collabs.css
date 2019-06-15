@@ -21,20 +21,30 @@ body{
   color: white;
 }
 
+.prada{
+  height: 65px;
+  width: 397px;
+  position: relative;
+  background: white;
+}
+
 .prada_logo {
   height: 65px;
   width: 397px;
+  position: absolute;
 }
 
-.first_collab h3{
-font-family: "futura-logo";
-color: white;
-font-size: 35px;
-font-weight: normal;
-padding-top: 185px;
-margin-left: -171px;
-}
 
+
+
+ h3{
+  font-family: "futura-logo";
+  color: white;
+  font-size: 42px;
+  font-weight: normal;
+  padding-top: 6px;
+  margin-left: 538px;
+}
 
 
 
@@ -44,7 +54,7 @@ margin-left: -171px;
   font-size: 28px;
   margin-left: -55px;
   text-align: center;
-  margin-top: -197px;
+  margin-top: -3px;
 }
 
 
