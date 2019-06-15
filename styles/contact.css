@@ -8,7 +8,7 @@ body{
 
 /*HEADER*/
 
-header {
+/*header {
   background: #DAE4E3;
   height: 60px;
 }
@@ -38,7 +38,7 @@ nav a {
 }
 nav a:hover {
   border-bottom: solid 3px #510E10;
-}
+}*/
 
 /*social media*/
 .social_media img{
@@ -47,16 +47,17 @@ nav a:hover {
 /*END HEADER*/
 
 /*MAIN*/
-main {
+.page_contact {
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
 }
 
 #redHezen {
-  width: 230.5px;
-  height: 356px;
-  margin: 20px 0;
+  width: 280.5px;
+  height: 406px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 /*#darkHezen {
   width: 272px;
@@ -72,12 +73,16 @@ main {
 
 .contact_info h1 {
   font-family: "futura-logo";
-  font-size: 55px;
+  font-size: 75px;
   margin-bottom: 0px;
 }
 
-h3 {
-  font-size: 30px;
+.contact_info h3 {
+  font-size: 40px;
+  margin: 30px 0;
+}
+.contact_info p{
+  font-size: 20px;
 }
 
 /* FOOTER */
