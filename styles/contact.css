@@ -40,10 +40,10 @@ nav a:hover {
   border-bottom: solid 3px #510E10;
 }*/
 
-/*social media*/
+/*social media
 .social_media img{
   margin: 20px 5px;
-}
+}*/
 /*END HEADER*/
 
 /*MAIN*/
@@ -59,12 +59,6 @@ nav a:hover {
   margin-top: 20px;
   margin-bottom: 60px;
 }
-/*#darkHezen {
-  width: 272px;
-  height: 272px;
-  padding-top: 100px;
-  padding-right: 25px;
-}*/
 
 .contact_info {
   color: #fff;
@@ -85,42 +79,62 @@ nav a:hover {
   font-size: 20px;
 }
 
-/* FOOTER */
-/*footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 120px;
-  border-top: solid 1px #DAE4E3;
+/*Responsive for tablets*/
+@media (min-width: 768px) and (max-width: 1325px) {
+  #redHezen {
+    width: 300.5px;
+    height: 426px;
+    margin-top: 60px;
+    margin-bottom: 130px;
+  }
+
+  .contact_info {
+    color: #fff;
+    text-align: center;
+  }
+
+  .contact_info h1 {
+    font-family: "futura-logo";
+    font-size: 80px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+
+  .contact_info h3 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  .contact_info p{
+    font-size: 25px;
+  }
 }
 
-.social_media_footer {
-  padding-top: 20px;
-}
+/*Responsive for mobile phones */
+@media (max-width: 767px) {
+  #redHezen {
+    width: 300.5px;
+    height: 426px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+  }
 
-.social_media_footer a{
-  margin: 10px;
-}
-.social_media_footer img {
-  height: 24px;
-  width: 24px;
-}
+  .contact_info {
+    color: #fff;
+    text-align: center;
+  }
 
-#cp_hezen {
-  font-size: 10px;
-  color: #fff;
-  margin-top: 10px;
-}
+  .contact_info h1 {
+    font-family: "futura-logo";
+    font-size: 80px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
 
-.sup_info a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 13px;
-  margin: 0 30px;
+  .contact_info h3 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  .contact_info p{
+    font-size: 25px;
+  }
 }
-*/
