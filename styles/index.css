@@ -450,7 +450,7 @@ body{
   font-weight: 100;
   text-align: center;
 }
-.main_part4 .instagram_link a {
+.main_part4 .instagram_link .ig_link {
   text-decoration: none;
   color:black;
   font-size: 1.5rem;
@@ -465,7 +465,7 @@ body{
   text-align: center;
   margin: 0;
 }
-.ig_img {
+.ig_icon, .ig_img {
   height:100%;
 }
 
