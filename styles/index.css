@@ -29,7 +29,7 @@ body{
 }
 .main_part1_hezenintro h1 {
   font-family: "futura-logo";
-  font-size: 10rem;
+  font-size: 9rem;
   margin:0;
 }
 .main_part1_hezenintro h3 {
@@ -88,7 +88,7 @@ body{
 }
 
 /*Responsive for tablets*/
-@media (min-width: 768px) and (max-width: 1325px) {
+@media (min-width: 768px) and (max-width: 950px) {
   .main_part1{
     height: auto;
     width:100%;
