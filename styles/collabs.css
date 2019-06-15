@@ -7,13 +7,23 @@ body{
   background: #510E10;
 }
 
+.page_collabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
  .title h2{
   font-family: "futura-logo";
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: normal;
-  margin-left: 800px;
   margin-top:122px;
   color: white;
+}
+
+.prada_logo {
+  height: 65px;
+  width: 397px;
 }
 
 .first_collab h3{
