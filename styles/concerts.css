@@ -17,3 +17,7 @@ body{
 .concerts_title h2 {
   font-size: 40px;
 }
+.song{
+   width: 100%;
+   height: auto;
+}
