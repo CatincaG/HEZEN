@@ -59,8 +59,8 @@ body{
   align-items: center;
 }
 .main_part1_youtubeAPI iframe {
-  width:790px;
-  height:444px;
+  width:90%;
+  height: 55%;
 }
 .arrow_anchor {
   width:160px;
