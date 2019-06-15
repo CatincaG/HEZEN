@@ -88,7 +88,7 @@ body{
 }
 
 /*Responsive for tablets*/
-@media (min-width: 768px) and (max-width: 950px) {
+@media screen (min-width: 768px) and (max-width: 950px) {
   .main_part1{
     height: auto;
     width:100%;
@@ -151,7 +151,7 @@ body{
   }
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media screen (min-width: 300px) and (max-width: 767px) {
   .main_part1{
     height: auto;
     width:100%;
