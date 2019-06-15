@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 /*Responsive for tablets*/
-@media (min-width: 768px) and (max-width: 1325px) {
+@media screen and (min-width: 768px) and (max-width: 1325px) {
   #redHezen {
     width: 300.5px;
     height: 426px;
@@ -110,14 +110,8 @@ nav a:hover {
 }
 
 /*Responsive for mobile phones */
-@media (max-width: 767px) {
-  #redHezen {
-    width: 300.5px;
-    height: 426px;
-    margin-top: 60px;
-    margin-bottom: 150px;
-  }
-
+@media screen and (max-width:768px)
+{
   .contact_info {
     color: #fff;
     text-align: center;
@@ -136,5 +130,12 @@ nav a:hover {
   }
   .contact_info p{
     font-size: 25px;
+  }
+
+  #redHezen {
+    width: 300.5px;
+    height: 426px;
+    margin-top: 60px;
+    margin-bottom: 150px;
   }
 }
