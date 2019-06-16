@@ -58,9 +58,11 @@ body{
     margin-left: 30%;
 }
 
-.bigDivLogo_first div, .bigDivLogo_second div{
-  margin-top: 20%;
-}
+  .bigDivLogo_first div, .bigDivLogo_second div{
+    margin-top: 20%;
+  }
+
+  
 
 
 }
