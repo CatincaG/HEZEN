@@ -22,15 +22,15 @@ body{
 }
 
 .prada{
-  height: 67px;
-  width: 381px;
+  height: 44px;
+  width: 253px;
   position: relative;
   background: white;
 }
 
 .prada_logo {
-  height: 66px;
-  width: 384px;
+  height: 44px;
+  width: 256px;
   position: absolute;
 }
 
@@ -54,7 +54,7 @@ body{
 .first_collab p{
   font-weight: normal;
   color: white;
-  font-size: 28px;
+  font-size: 1.8rem;
   margin-left: -55px;
   text-align: center;
   margin-top: 25px;
@@ -121,14 +121,30 @@ body{
    font-size: 3rem;
   }
 
+  h3{
+    font-size: 2rem;
+    margin-top: -30px;
+  }
+
   .first_collab p{
     width: 500px;
     margin-left: 30%;
+    font-size: 1.3rem;
+    margin-top: 10px;
   }
 
   .prada_logo {
-    height: 44px;
-    width: 256px;
-    position: absolute;
+    height: 22px;
+    width: 128px;
+  }
+
+  .prada{
+    height: 22px;
+    width: 128px;
+  }
+
+  #year2017{
+    margin-left: 50%;
+    padding-top: 20px;
   }
 }
