@@ -10,14 +10,16 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+
   margin-top: 30px;
   color: #fff;
 }
 
 .concerts_title h2 {
+  padding-top: 10px;
   font-size: 40px;
 }
 .song{
-   width: 100%;
+   width: 50%;
    height: auto;
 }

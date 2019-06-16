@@ -10,12 +10,15 @@
    <meta name="msapplication-TileColor" content="#da532c">
    <meta name="viewport" content="width=device-width"/>
    <meta name="theme-color" content="#ffffff">
-   <meta name="description" content="Descrition de ma page pour les moteurs de recherche"/>
+   <meta name="description" content="Site officiel de HEZEN"/>
    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
    <link rel="stylesheet" href="styles/index.css">
    <link rel="stylesheet" href="styles/fonts.css">
    <link rel="stylesheet" href="styles/header_footer.css">
-
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
  </head>
  <body>
    <header>
@@ -108,13 +111,13 @@ epic and infectious hooks.</p>
    <div class="main_part4">
     <h2>GALERIE</h2>
     <span class="instagram_link">
-      <a href="https://www.instagram.com/sarahezen/">@sarahezen</a>
-      <img class="ig_img" src="images/homepage/instagram.png" alt="ig"/>
+      <a class="ig_link" href="https://www.instagram.com/sarahezen/">@sarahezen</a>
+      <a class="ig_icon" href="https://www.instagram.com/sarahezen/"><img class="ig_img" src="images/homepage/instagram.png" alt="ig"/></a>
     </span>
 
     <!-- SLIDER INSTAGRAM-->
 
-<div id="instafeed" class="gallery"></div>
+    <a id="instafeed" href="https://www.instagram.com/sarahezen/" class="gallery"></a>
    </div>
 
 
@@ -142,5 +145,6 @@ epic and infectious hooks.</p>
  <script src="scripts/index.js"></script>
 <script src="scripts/hamburger_menu.js"></script>
 <script src="scripts/instafeed.min.js"></script>
+
  </body>
 </html>
