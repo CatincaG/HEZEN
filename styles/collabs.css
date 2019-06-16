@@ -40,7 +40,7 @@ body{
  h3{
   font-family: "futura-logo";
   color: white;
-  font-size: 46px;
+  font-size: 2.7rem;
   font-weight: normal;
   margin-top:-40px;
 }
@@ -98,7 +98,7 @@ body{
 
 .medias + a img{
   display: flex;
-  align-items: : space-between;
+  align-items:space-between;
   flex-direction: row-reverse;
 }
 
@@ -106,10 +106,29 @@ body{
   width: 35px;
 }
 
-/* Responsive */
+/* Responsive for tablets */
 @media (min-width: 768px) and (max-width: 1024px){
    .title h2{
     height:auto;
     width: auto;
+  }
+}
+
+/*responsive for phones */
+@media screen and (max-width: 767px){
+
+  .title h2{
+   font-size: 3rem;
+  }
+
+  .first_collab p{
+    width: 500px;
+    margin-left: 30%;
+  }
+
+  .prada_logo {
+    height: 44px;
+    width: 256px;
+    position: absolute;
   }
 }
