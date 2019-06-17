@@ -247,51 +247,32 @@ body{
   padding-right: 50px;
 }
 .main_part2 .hezen_bio p {
-  font-size: 1.8rem;
+  margin-top: 10vh;
+  font-size: 1.7rem;
   display: flex;
   align-items: flex-start;
   width:55%;
   justify-content: center;
-}
-.main_part2 h2 {
-  font-family: "futura-logo";
-  color: black;
-  font-size: 4.5rem;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 0;
-  width:55%;
-  justify-content: center;
+  background-color:rgba(218,228,227,0.4);
 }
 /*responsive PART 2 */
-@media (min-width: 1025px) and (max-width: 1280px){
-  .main_part2 h2 {
-    font-size: 3rem;
 
-  }
-}
 /*Responsive for tablets */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .main_part2 h2 {
-    font-size: 3rem;
-    width:65%;
-  }
   .main_part2 .hezen_bio p {
     width:65%;
     font-size: 1.4rem;
+    background-color:rgba(218,228,227,0.4);
   }
 }
 
 /*responsive for phones */
 @media screen and (max-width: 767px){
-  .main_part2 h2 {
-    font-size: 2rem;
-    width:100%;
-  }
+
   .main_part2 .hezen_bio p {
     width:90%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .main_part2 .hezen_bio {
     height: 100%;
@@ -404,8 +385,6 @@ body{
 }
 .main_part3 {
   height: auto;
-
-
 }
 .hezen_ep1, .hezen_ep2, .hezen_ep3 {
   margin: 2vh 0 2vh 0;
@@ -422,8 +401,12 @@ body{
   }
   .main_part3 {
     height: auto;
-
-
+  }
+  .main_part3_ep h4 {
+    font-size: 2rem;
+  }
+  .main_part3_ep h5 {
+    font-size: 1rem;
   }
   .hezen_ep1, .hezen_ep2, .hezen_ep3 {
     margin: 2vh 0 2vh 0;
@@ -442,21 +425,21 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .main_part4 h2 {
   height: 5vh;
-  padding-top: 10vh;
   font-size: 2.5rem;
   font-weight: 100;
   text-align: center;
 }
-.main_part4 .instagram_link a {
+.main_part4 .instagram_link .ig_link {
   text-decoration: none;
   color:black;
   font-size: 1.5rem;
 }
 .instagram_link {
-  height:6vh;
+  height:5vh;
   width: 14vw;
   display: flex;
   flex-direction: row;
@@ -465,15 +448,22 @@ body{
   text-align: center;
   margin: 0;
 }
-.ig_img {
+.ig_icon, .ig_img {
   height:100%;
 }
-
 /* SLIDER INSTAGRAM*/
 
 .gallery{
-  width:80vw;
-  height:50vh;
+  width:50vw;
+  height:auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+.gallery * {
+  width: 15vw;
+  margin:1%;
 }
