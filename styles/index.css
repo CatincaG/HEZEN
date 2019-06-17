@@ -379,6 +379,18 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+/* images link hover opacity */
+.main_part3_ep a:first-of-type:hover{
+  background-image: url('../images/homepage/hezen_ep1opac.jpg');
+}
+.main_part3_ep a:nth-of-type(2):hover{
+  background-image: url('../images/homepage/hezen_ep2opac.jpg');
+}
+.main_part3_ep a:last-of-type:hover{
+  background-image: url('../images/homepage/hezen_ep3opac.png');
+}
+
 /*Responsive for talets*/
 @media screen and (min-width: 768px) and (max-width: 1325px) {
 
@@ -394,6 +406,15 @@ body{
   margin: 2vh 0 2vh 0;
   height: 30vw;
   width: 30vw;
+}
+.hezen_ep1{
+  background-image: url('../images/homepage/hezen_ep1opac.jpg');
+}
+.hezen_ep2{
+  background-image: url('../images/homepage/hezen_ep2opac.jpg');
+}
+.hezen_ep3{
+  background-image: url('../images/homepage/hezen_ep3opac.png');
 }
 }
 /* responsive for phones */
@@ -425,6 +446,15 @@ body{
   font-size: 1rem;
   border: 1px solid #510E10;
   padding: 0 4.5vw 0 4.5vw;
+  }
+  .hezen_ep1{
+    background-image: url('../images/homepage/hezen_ep1opac.jpg');
+  }
+  .hezen_ep2{
+    background-image: url('../images/homepage/hezen_ep2opac.jpg');
+  }
+  .hezen_ep3{
+    background-image: url('../images/homepage/hezen_ep3opac.png');
   }
 }
 
