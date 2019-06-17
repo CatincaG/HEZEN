@@ -475,6 +475,7 @@ body{
 @media screen and (max-width: 767px){
 .gallery{
   width:60vw;
+  height:auto;
 }
 .gallery * {
   width: 25vw;
