@@ -476,4 +476,10 @@ body{
 .gallery{
   width:60vw;
 }
+.gallery * {
+  width: 25vw;
+  margin:1%;
 }
+}
+
+/*class for js*/
