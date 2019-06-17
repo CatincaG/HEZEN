@@ -318,6 +318,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .hezen_ep2 {
   width: 50vh;
@@ -329,6 +330,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .hezen_ep3 {
   height: 50vh;
@@ -340,6 +342,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .main_part3_ep h4 {
   color: white;
