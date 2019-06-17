@@ -416,10 +416,14 @@ body{
     height: 45vw;
     width: 45vw;
   }
+  .main_part3 .main_part3_buttons {
+    justify-content: space-between;
+    width:70vw;
+  }
   .main_part3_buttons .listen_link, .main_part3_buttons .buy_link {
   font-size: 1rem;
   border: 1px solid #510E10;
-  padding: 0 4vw 0 4vw;
+  padding: 0 4.5vw 0 4.5vw;
   }
 }
 
@@ -475,12 +479,15 @@ body{
 
 /*responsive PART 4*/
 @media screen and (max-width: 767px){
+.main_part4 {
+    height: auto;
+}
 .gallery{
-  width:60vw;
+  width:70vw;
   height:auto;
 }
 .gallery * {
-  width: 25vw;
+  width: 32vw;
   margin:1%;
 }
 }
