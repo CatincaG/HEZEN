@@ -62,7 +62,7 @@ header {
     font-weight: bold;
   }
 }
-@media (min-width:768px) and (max-width: 955px){
+@media (min-width:768px) and (max-width: 1000px){
   .header_elements .social_media {
     display: none;
   }

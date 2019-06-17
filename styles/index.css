@@ -247,11 +247,12 @@ body{
   padding-right: 50px;
 }
 .main_part2 .hezen_bio p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   display: flex;
   align-items: flex-start;
   width:55%;
   justify-content: center;
+  background-color:rgba(218,228,227,0.4);
 }
 /*responsive PART 2 */
 
@@ -261,18 +262,16 @@ body{
   .main_part2 .hezen_bio p {
     width:65%;
     font-size: 1.4rem;
+    background-color:rgba(218,228,227,0.4);
   }
 }
 
 /*responsive for phones */
 @media screen and (max-width: 767px){
-  .main_part2 h2 {
-    font-size: 2rem;
-    width:100%;
-  }
+
   .main_part2 .hezen_bio p {
     width:90%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .main_part2 .hezen_bio {
     height: 100%;
@@ -427,7 +426,6 @@ body{
 }
 .main_part4 h2 {
   height: 5vh;
-  padding-top: 10vh;
   font-size: 2.5rem;
   font-weight: 100;
   text-align: center;
