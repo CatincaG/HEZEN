@@ -385,8 +385,6 @@ body{
 }
 .main_part3 {
   height: auto;
-
-
 }
 .hezen_ep1, .hezen_ep2, .hezen_ep3 {
   margin: 2vh 0 2vh 0;
@@ -403,8 +401,12 @@ body{
   }
   .main_part3 {
     height: auto;
-
-
+  }
+  .main_part3_ep h4 {
+    font-size: 2rem;
+  }
+  .main_part3_ep h5 {
+    font-size: 1rem;
   }
   .hezen_ep1, .hezen_ep2, .hezen_ep3 {
     margin: 2vh 0 2vh 0;
