@@ -247,6 +247,7 @@ body{
   padding-right: 50px;
 }
 .main_part2 .hezen_bio p {
+  margin-top: 10vh;
   font-size: 1.7rem;
   display: flex;
   align-items: flex-start;
