@@ -5,6 +5,7 @@ body{
   font-family:'futura-text';
   color: white;
   background: #510E10;
+  align-items: center;
 }
 
 .page_collabs {
@@ -55,9 +56,10 @@ body{
   font-weight: normal;
   color: white;
   font-size: 1.8rem;
-  margin-left: -55px;
+  margin-left: 12%;
   text-align: center;
   margin-top: 25px;
+  width: 1000px;
 }
 
 
@@ -137,7 +139,7 @@ body{
 
   .api{
     width:100%;
-    height: 50vh;
+    height: 300px;
     margin-top: -10px;
   }
   .api iframe {
