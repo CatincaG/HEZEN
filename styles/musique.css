@@ -31,16 +31,19 @@ body{
     flex-direction: column;
     justify-content: space-between;
     margin: 3%;
-    
 }
 
+
+iframe{
+  border: none;
+}
 
 
 .bigDivLogo_first img, .bigDivLogo_second img{
     height: 40px;
 }
 
-/* Responsive */ 
+/* Responsive */
 
 @media only screen and (max-width: 600px) {
   #spotifyPlayer{
@@ -62,7 +65,7 @@ body{
     margin-top: 20%;
   }
 
-  
+
 
 
 }
