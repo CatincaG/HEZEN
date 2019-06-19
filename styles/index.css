@@ -61,6 +61,7 @@ body{
 .main_part1_youtubeAPI iframe {
   width:90%;
   height: 55%;
+  border: none;
 }
 .arrow_anchor {
   width:160px;
