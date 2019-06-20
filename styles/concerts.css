@@ -6,13 +6,14 @@ body{
   background: #510E10;
 }
 
+
 .page_concerts {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-top: 30px;
   color: #fff;
+  height: 666px;
 }
 
 .concerts_title h2 {
