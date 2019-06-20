@@ -256,6 +256,18 @@ body{
   justify-content: center;
   background-color:rgba(218,228,227,0.4);
 }
+
+.main_part2_collabs {
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+  background-color: #DAE4E3;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1.5px solid #510E10;
+  padding: 1.5vh 4.5vw 1.5vh 4.5vw;
+  font-family: "futura-text";
+}
 /*responsive PART 2 */
 
 /*Responsive for tablets */
@@ -284,6 +296,13 @@ body{
     text-align: center;
     padding-right: 0px;
   }
+  .main_part2_collabs {
+    font-size: 0.8rem;
+    border: 1px solid #510E10;
+}
+.main_part2{
+  border-bottom: 15px solid #510E10;
+}
 }
 
 
@@ -337,7 +356,7 @@ body{
   height: 50vh;
   width: 50vh;
   margin: 0 2vw 0 2vw;
-  background-image: url('../images/homepage/hezen_ep3.png');
+  background-image: url('../images/homepage/hezen_ep3.jpg');
   background-size: cover;
   flex-direction: column;
   display: flex;
@@ -388,7 +407,7 @@ body{
   background-image: url('../images/homepage/hezen_ep2opac.jpg');
 }
 .main_part3_ep a:last-of-type:hover{
-  background-image: url('../images/homepage/hezen_ep3opac.png');
+  background-image: url('../images/homepage/hezen_ep3opac.jpg');
 }
 
 /*Responsive for talets*/
@@ -414,7 +433,7 @@ body{
   background-image: url('../images/homepage/hezen_ep2opac.jpg');
 }
 .hezen_ep3{
-  background-image: url('../images/homepage/hezen_ep3opac.png');
+  background-image: url('../images/homepage/hezen_ep3opac.jpg');
 }
 }
 /* responsive for phones */
