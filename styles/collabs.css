@@ -11,7 +11,16 @@ body{
 .page_collabs {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+}
+.api{
+  width:100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+
 }
 
  .title h2{
@@ -20,46 +29,30 @@ body{
   font-weight: normal;
   margin-top:122px;
   color: white;
-}
-
-.prada{
-  height: 44px;
-  width: 253px;
-  position: relative;
-  background: white;
-}
-
-.prada_logo {
-  height: 44px;
-  width: 256px;
-  position: absolute;
+  display: flex;
+    justify-content: center;
 }
 
 
-
-
- h3{
+ .title h3{
   font-family: "futura-logo";
   color: white;
   font-size: 2.7rem;
   font-weight: normal;
-  margin-top:-40px;
+  margin-top:-20px;
+  display: flex;
+  justify-content: center;
 }
 
-#year2017{
-  margin-left: 631px;
-  padding-top: 67px;
-}
+
 
 
 .first_collab p{
+  justify-content: center;
   font-weight: normal;
   color: white;
-  font-size: 1.8rem;
-  margin-left: 12%;
-  text-align: center;
-  margin-top: 25px;
-  width: 1000px;
+  font-size: 1.4rem;
+  display: flex;
 }
 
 
@@ -72,7 +65,7 @@ body{
   height:444px;
 }
 
-.first_youtubeAPi{
+.youtubeAPi{
   width:100%;
   height:auto;
   display: flex;
@@ -80,22 +73,20 @@ body{
   align-items: flex-end;
 }
 
-.second_youtubeAPI{
-  width:100%;
-  height:auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
+
 
 /* Medias */
 
 .medias{
-  margin-left: 606px;
-  margin-top: 20px;
-  margin-right: 565px;
-  padding-bottom: 25px;
+  display: flex;
+  align-items:space-between;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
+.mediadeux {
+  margin-top: 100px;
 }
 
 .medias + a img{
@@ -119,38 +110,26 @@ body{
     margin-top: -30px;
   }
 
-  .prada_logo {
-    height: 33px;
-    width: 192px;
-  }
-
-  .prada{
-    margin-top: -20px;
-    height: 33px;
-    width: 192px;
-  }
-
   .first_collab p{
-    width: 650px;
-    margin-left: 24%;
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin-top: 10px;
   }
 
   .api{
     width:100%;
-    height: 300px;
-    margin-top: -10px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+
   }
   .api iframe {
     width:500px;
     height:281px;
+    margin-top: 3vh;
   }
 
-  #year2017{
-    margin-left: 50%;
-    padding-top: 30px;
-  }
 }
 
 /*responsive for phones */
@@ -170,25 +149,13 @@ body{
   }
 
   .first_collab p{
-    width: 450px;
-    margin-left: 31.5%;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-top: 10px;
-  }
-
-  .prada_logo {
-    height: 22px;
-    width: 128px;
-  }
-
-  .prada{
-    height: 22px;
-    width: 128px;
   }
 
   .api{
     width:100%;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -201,15 +168,15 @@ body{
     margin-top: 3vh;
   }
 
-  #year2017{
-    margin-left: 50%;
-    padding-top: 30px;
-  }
 
+  .mediadeux{
+    margin-top: 40px;
+  }
   .medias{
-    margin-left: 606px;
-    margin-top: 0px;
-    margin-right: 565px;
-    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
   }
 }
