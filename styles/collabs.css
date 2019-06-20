@@ -80,7 +80,6 @@ body{
 
 .medias{
   display: flex;
-  align-items:space-between;
   flex-direction: row-reverse;
   justify-content: center;
   margin-bottom: 20px;
@@ -92,7 +91,6 @@ body{
 
 .medias + a img{
   display: flex;
-  align-items:space-between;
   flex-direction: row-reverse;
 }
 
