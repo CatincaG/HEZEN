@@ -6,7 +6,11 @@ body{
     color: white;
     background: #510E10;
   }
-
+.musiquemain{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 #title_page{
   display: flex;
   justify-content: center;
@@ -30,7 +34,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3%;
 }
 
 
@@ -47,8 +50,7 @@ iframe{
 
 @media only screen and (max-width: 600px) {
   #spotifyPlayer{
-    width: 94%;
-    margin-left: 3%;
+    width: 100%;
     box-shadow: 4px 4px 14px #000;
     margin-top: 5%;
     margin-bottom: 11%;
@@ -58,11 +60,10 @@ iframe{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 30%;
 }
 
   .bigDivLogo_first div, .bigDivLogo_second div{
-    margin-top: 20%;
+
   }
 
 
