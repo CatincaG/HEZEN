@@ -1,3 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'futura-text';
+  color: white;
+  background: #510E10;
+  align-items: center;
+}
 /*HEADER */
 
 /* Desktop */
@@ -11,7 +19,6 @@ header {
   }
 
   #headerLogo {
-
     height: 90%;
     margin-left: 20px;
   }
@@ -38,7 +45,7 @@ header {
     color: #000;
     border: 3px solid rgba(0, 0, 0, 0);
   }
- 
+
   nav a:hover {
     border-bottom: 3px solid #510E10;
   }
@@ -53,7 +60,879 @@ header {
     height:25px;
   }
 
+/* collab*/
 
+
+.page_collabs {
+  display: flex;
+  flex-direction: column;
+
+}
+.api{
+  width:100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+
+}
+
+ .title h2{
+  font-family: "futura-text";
+  font-size: 2.9em;
+  font-weight: normal;
+  margin-top:122px;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+
+ .title h3{
+  font-family: "futura-logo";
+  color: white;
+  font-size: 2.7rem;
+  font-weight: normal;
+  margin-top:-20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.first_collab p{
+  justify-content: center;
+  font-weight: normal;
+  color: white;
+  font-size: 1.4rem;
+  display: flex;
+}
+
+
+
+
+/* YouTube API */
+
+ .ipframecollab {
+  width:800px;
+  height:444px;
+  border: none;
+}
+
+.youtubeAPi{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+
+/* Medias */
+
+.medias{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.mediadeux {
+  margin-top: 100px;
+}
+
+.medias + a img{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.medias > a img{
+  width: 35px;
+}
+
+/* Responsive for tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+   .title h2{
+    font-size: 4rem;
+  }
+
+  h3{
+    font-size: 2.4rem;
+    margin-top: -30px;
+  }
+
+  .first_collab p{
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    display: flex;
+  }
+
+
+  .api{
+    width:100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+
+  }
+  .api iframe {
+    width:500px;
+    height:281px;
+    margin-top: 3vh;
+  }
+
+    .mediadeux{
+        margin-top: 100px;
+    }
+    .medias{
+        margin-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+}
+
+/*responsive for phones */
+@media screen and (max-width: 767px){
+
+  body{
+    margin: 0 auto;
+  }
+
+  .title h2{
+   font-size: 2.2rem;
+  }
+
+  h3{
+    font-size: 1.8rem;
+    margin-top: -30px;
+  }
+
+  .first_collab p{
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .api{
+    width:100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+
+  }
+  .api iframe {
+    width:450px;
+    height:253px;
+    margin-top: 3vh;
+  }
+
+
+  .mediadeux{
+    margin-top: 100px;
+  }
+  .medias{
+      margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+
+/*collab fin*/
+/*concerts*/
+
+
+.page_concerts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  color: #fff;
+  height: 666px;
+}
+
+.concerts_title h2 {
+  padding-top: 10px;
+  font-size: 40px;
+  margin-top: 60px;
+}
+.song{
+   width: 50%;
+   height: auto;
+}
+
+/*concerts fin*/
+
+/*contact*/
+.page_contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#redHezen {
+  width: 280.5px;
+  height: 406px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.contact_info {
+  color: #fff;
+  text-align: center;
+}
+
+.contact_info h1 {
+  font-family: "futura-logo";
+  font-size: 75px;
+  margin-bottom: 0px;
+}
+
+.contact_info h3 {
+  font-size: 2.5em;
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+.contact_info p{
+  font-size: 20px;
+}
+
+/*Responsive for tablets*/
+@media screen and (min-width: 768px) and (max-width: 1325px) {
+  .page_contact {
+    margin-top: 150px;
+  }
+
+  #redHezen {
+    width: 300.5px;
+    height: 426px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+  }
+
+  .contact_info {
+    color: #fff;
+    text-align: center;
+  }
+
+  .contact_info h1 {
+    font-family: "futura-logo";
+    font-size: 80px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+  }
+
+  .contact_info h3 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  .contact_info p{
+    font-size: 25px;
+  }
+}
+
+/*Responsive for mobile phones */
+@media screen and (max-width:768px) {
+  .contact_info {
+    color: #fff;
+    text-align: center;
+  }
+
+  .contact_info h1 {
+    font-family: "futura-logo";
+    font-size: 80px;
+    margin-top: 110px;
+    margin-bottom: 0px;
+  }
+
+  .contact_info h3 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  .contact_info p{
+    font-size: 25px;
+  }
+
+  #redHezen {
+    width: 300.5px;
+    height: 426px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+  }
+}
+
+/*contact fin*/
+
+
+@font-face {
+  font-family: "futura-text";
+  src: url("../fonts/futura/futura light bt.ttf");
+}
+@font-face {
+  font-family: "futura-logo";
+  src: url("../fonts/futura/futura medium condensed bt.ttf");
+}
+@font-face {
+  font-family: "NauSea";
+  src: url("../fonts/Nau Sea.otf");
+}
+
+/*index*/
+.main_part1{
+  background-color: #510E10;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.main_part1_hezenintro {
+  width:45%;
+  height: 100%;
+  color:white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_part1_hezenintro h1 {
+  font-family: "futura-logo";
+  font-size: 9rem;
+  margin:0;
+}
+.main_part1_hezenintro h3 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 5vh 0 0 0;
+}
+.main_part1_hezenintro h2 {
+  font-family: "NauSea";
+  font-size: 3rem;
+  font-weight: 100;
+}
+.main_part1_hezenintro a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #DAE4E3;
+  border-radius: 10px;
+  padding: 3% 25% 3% 25%;
+}
+.main_part1_youtubeAPI{
+  width:55%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_part1_youtubeAPI iframe {
+  width:90%;
+  height: 55%;
+  border: none;
+}
+.arrow_anchor {
+  width:160px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top:83vh;
+  left: 0;
+  right: 0;
+  animation: move 1.5s infinite linear;
+}
+@keyframes move {
+  0%{
+    transform: translate(0%,0);
+  }
+  25%{
+    transform: translate(0%,5%);
+  }
+  50%{
+    transform: translate(0%,0);
+  }
+  75%{
+    transform: translate(0%,-5%);
+  }
+  100%{
+    transform: translate(0%,0);
+  }
+}
+
+/*Responsive for tablets*/
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  .main_part1{
+    height: auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_part1_hezenintro {
+    width:100%;
+    height: 42vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .main_part1_hezenintro h1 {
+    font-family: "futura-logo";
+    font-size: 8rem;
+    margin:0;
+  }
+  .main_part1_hezenintro h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 0;
+  }
+  .main_part1_hezenintro h2 {
+    font-family: "NauSea";
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 1vh 0 1vh 0;
+  }
+  .main_part1_hezenintro a {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: #DAE4E3;
+    border-radius: 10px;
+    padding: 1.4% 25% 1.4% 25%;
+  }
+  .main_part1_youtubeAPI{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .main_part1_youtubeAPI iframe {
+    width:500px;
+    height:281px;
+    margin-top: 3vh;
+  }
+  .arrow_anchor {
+    width:120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:85vh;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main_part1{
+    height: auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_part1_hezenintro {
+    width:100%;
+    height: 42vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  .main_part1_hezenintro h1 {
+    font-family: "futura-logo";
+    font-size: 4.5rem;
+    margin:0;
+  }
+  .main_part1_hezenintro h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 2vh 0 0 0;
+  }
+  .main_part1_hezenintro h2 {
+    font-family: "NauSea";
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin: 1vh 0 1vh 0;
+  }
+  .main_part1_hezenintro a {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #DAE4E3;
+    border-radius: 10px;
+    padding: 2% 25% 2% 25%;
+  }
+  .main_part1_youtubeAPI{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+
+  }
+  .main_part1_youtubeAPI iframe {
+    width:450px;
+    height:253px;
+    margin-top: 3vh;
+  }
+  .arrow_anchor {
+    width:90px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:88vh;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* PART 2*/
+.backgroundpart2{
+  background: #DAE4E3;
+}
+.main_part2 {
+  height: 100vh;
+  background-image: url('../images/homepage/hezen_photo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 0px;
+  border-bottom: 20px solid #510E10;
+  display: flex;
+  justify-content: center;
+}
+.main_part2 .hezen_bio {
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  padding-right: 50px;
+}
+.main_part2 .hezen_bio p {
+  margin-top: 10vh;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: flex-start;
+  width:55%;
+  justify-content: center;
+  background-color:rgba(218,228,227,0.4);
+}
+
+.main_part2_collabs {
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+  background-color: #DAE4E3;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1.5px solid #510E10;
+  padding: 1.5vh 4.5vw 1.5vh 4.5vw;
+  font-family: "futura-text";
+}
+/*responsive PART 2 */
+
+/*Responsive for tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main_part2 .hezen_bio p {
+    width:65%;
+    font-size: 1.4rem;
+    background-color:rgba(218,228,227,0.4);
+  }
+}
+
+/*responsive for phones */
+@media screen and (max-width: 767px){
+
+  .main_part2 .hezen_bio p {
+    width:90%;
+    font-size: 1.1rem;
+  }
+  .main_part2 .hezen_bio {
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 0px;
+  }
+  .main_part2_collabs {
+    font-size: 0.8rem;
+    border: 1px solid #510E10;
+}
+.main_part2{
+  border-bottom: 15px solid #510E10;
+}
+}
+
+
+/* PART 3*/
+
+.main_part3 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #DAE4E3;
+}
+.main_part3 h2 {
+  height: 10vh;
+  padding-top: 10vh;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+.main_part3 .main_part3_ep {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.hezen_ep1 {
+  height: 50vh;
+  width: 50vh;
+  margin: 0 2vw 0 2vw;
+  background-image: url('../images/homepage/hezen_ep1.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.hezen_ep2 {
+  width: 50vh;
+  height: 50vh;
+  margin: 0 2vw 0 2vw;
+  background-image: url('../images/homepage/hezen_ep2.jpg');
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.hezen_ep3 {
+  height: 50vh;
+  width: 50vh;
+  margin: 0 2vw 0 2vw;
+  background-image: url('../images/homepage/hezen_ep3.jpg');
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.main_part3_ep h4 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin:0;
+}
+.main_part3_ep h5 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin:0;
+}
+.main_part3 .main_part3_buttons {
+  height: 20vh;
+  width:60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_part3_buttons .listen_link, .main_part3_buttons .buy_link {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 5px;
+  color: black;
+  border: 1.5px solid #510E10;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* images link hover opacity */
+.main_part3_ep a:first-of-type:hover{
+  background-image: url('../images/homepage/hezen_ep1opac.jpg');
+}
+.main_part3_ep a:nth-of-type(2):hover{
+  background-image: url('../images/homepage/hezen_ep2opac.jpg');
+}
+.main_part3_ep a:last-of-type:hover{
+  background-image: url('../images/homepage/hezen_ep3opac.jpg');
+}
+
+/*Responsive for talets*/
+@media screen and (min-width: 768px) and (max-width: 1325px) {
+
+.main_part3 .main_part3_ep {
+  display: flex;
+  flex-direction: column;
+  height:auto;
+}
+.main_part3 {
+  height: auto;
+}
+.hezen_ep1, .hezen_ep2, .hezen_ep3 {
+  margin: 2vh 0 2vh 0;
+  height: 30vw;
+  width: 30vw;
+}
+.hezen_ep1{
+  background-image: url('../images/homepage/hezen_ep1opac.jpg');
+}
+.hezen_ep2{
+  background-image: url('../images/homepage/hezen_ep2opac.jpg');
+}
+.hezen_ep3{
+  background-image: url('../images/homepage/hezen_ep3opac.jpg');
+}
+}
+/* responsive for phones */
+@media screen and (max-width: 768px) {
+  .main_part3 .main_part3_ep {
+    display: flex;
+    flex-direction: column;
+    height:auto;
+  }
+  .main_part3 {
+    height: auto;
+  }
+  .main_part3_ep h4 {
+    font-size: 2rem;
+  }
+  .main_part3_ep h5 {
+    font-size: 1rem;
+  }
+  .hezen_ep1, .hezen_ep2, .hezen_ep3 {
+    margin: 2vh 0 2vh 0;
+    height: 45vw;
+    width: 45vw;
+  }
+  .main_part3 .main_part3_buttons {
+    justify-content: space-between;
+    width:70vw;
+  }
+  .main_part3_buttons .listen_link, .main_part3_buttons .buy_link {
+  font-size: 1rem;
+  border: 1px solid #510E10;
+  padding: 0 4.5vw 0 4.5vw;
+  }
+  .hezen_ep1{
+    background-image: url('../images/homepage/hezen_ep1opac.jpg');
+  }
+  .hezen_ep2{
+    background-image: url('../images/homepage/hezen_ep2opac.jpg');
+  }
+  .hezen_ep3{
+    background-image: url('../images/homepage/hezen_ep3opac.png');
+  }
+}
+
+/* PART 4*/
+
+.main_part4 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #DAE4E3;
+}
+.main_part4 h2 {
+  height: 5vh;
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-align: center;
+}
+.main_part4 .instagram_link .ig_link {
+  text-decoration: none;
+  color:black;
+  font-size: 1.5rem;
+}
+.instagram_link {
+  height:5vh;
+  width: 14vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+.ig_icon, .ig_img {
+  height:100%;
+}
+/* SLIDER INSTAGRAM*/
+
+.gallery{
+  width:50vw;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+.gallery * {
+  width: 15vw;
+  margin:1%;
+}
+
+/*responsive PART 4*/
+@media screen and (max-width: 767px){
+.main_part4 {
+    height: auto;
+}
+.gallery{
+  width:70vw;
+  height:auto;
+}
+.gallery * {
+  width: 32vw;
+  margin:1%;
+}
+}
+
+/*fin index*/
 /* Fin Desktop */
 
 /* Responsive */
@@ -162,7 +1041,67 @@ header {
   /* Fin Desktop */
 
   /* Responsive */
+  .musiquemain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #title_page{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 23px;
+  }
 
+  #spotifyPlayer{
+      margin-top: 2%;
+      margin-bottom: 2%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .bigDivLogo{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 100px;
+  }
+
+  .bigDivLogo_first, .bigDivLogo_second{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+
+  iframe{
+    border: none;
+  }
+
+
+  .bigDivLogo_first img, .bigDivLogo_second img{
+      height: 40px;
+  }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 600px) {
+    #spotifyPlayer{
+      width: 100%;
+      box-shadow: 4px 4px 14px #000;
+      margin-top: 5%;
+      margin-bottom: 11%;
+    }
+
+    .bigDivLogo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+    .bigDivLogo_first div, .bigDivLogo_second div{
+
+    }
+  }
 
 
   /* Fin Responsive */

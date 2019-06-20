@@ -227,7 +227,9 @@ body{
 }
 
 /* PART 2*/
-
+.backgroundpart2{
+  background: #DAE4E3;
+}
 .main_part2 {
   height: 100vh;
   background-image: url('../images/homepage/hezen_photo.png');
@@ -313,6 +315,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #DAE4E3;
 }
 .main_part3 h2 {
   height: 10vh;
@@ -485,6 +488,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #DAE4E3;
 }
 .main_part4 h2 {
   height: 5vh;
