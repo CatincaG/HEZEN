@@ -63,6 +63,7 @@ body{
  iframe {
   width:800px;
   height:444px;
+  border: none;
 }
 
 .youtubeAPi{
