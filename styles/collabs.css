@@ -24,13 +24,14 @@ body{
 }
 
  .title h2{
-  font-family: "futura-logo";
-  font-size: 5rem;
+  font-family: "futura-text";
+  font-size: 2.9em;
   font-weight: normal;
   margin-top:122px;
   color: white;
+  text-transform: uppercase;
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
 
 
