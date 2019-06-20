@@ -28,6 +28,7 @@ body{
 .bigDivLogo{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .bigDivLogo_first, .bigDivLogo_second{

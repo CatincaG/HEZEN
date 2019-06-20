@@ -55,8 +55,11 @@ header {
 /* Responsive */
 
 @media (max-width: 767px) {
-  .header_elements nav, .header_elements .social_media {
+  .header_elements nav, .social_media {
     display: none;
+  }
+  .header_elements{
+    width: 100%;
   }
   .hamburger {
     display: block;
