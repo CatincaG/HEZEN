@@ -641,6 +641,7 @@ header {
   display: flex;
   align-items: flex-start;
   width:55%;
+  color: black;
   justify-content: center;
   background-color:rgba(218,228,227,0.4);
 }
