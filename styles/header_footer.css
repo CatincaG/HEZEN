@@ -78,9 +78,9 @@ header {
 
 }
 
- .title h2{
+ .titleh3 h3{
   font-family: "futura-text";
-  font-size: 2.9em;
+  font-size: 3em;
   font-weight: normal;
   margin-top:122px;
   color: white;
@@ -88,7 +88,7 @@ header {
   display: flex;
   justify-content: center;
   margin-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   margin-right: 0;
 }
 
@@ -159,13 +159,16 @@ header {
 
 /* Responsive for tablets */
 @media (min-width: 768px) and (max-width: 1024px){
-   .title h2{
-    font-size: 4rem;
+   .titleh3 h3{
+    font-size: 3rem;
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-right: 0;
   }
 
-  h3{
+  .title h3{
     font-size: 2.4rem;
-    margin-top: -30px;
+    margin-top: -10px;
   }
 
   .first_collab p{
@@ -212,13 +215,16 @@ header {
     margin: 0 auto;
   }
 
-  .title h2{
+  .titleh3 h3{
    font-size: 2.2rem;
+   margin-left: 0;
+   margin-bottom: 10px;
+   margin-right: 0;
   }
 
-  h3{
+  .title h3{
     font-size: 1.8rem;
-    margin-top: -30px;
+    margin-top: -10px;
   }
 
   .first_collab p{
